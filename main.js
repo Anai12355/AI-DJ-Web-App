@@ -29,8 +29,8 @@ function draw()
 function play()
 {
     song.play();
-    song.setVolume(1);
-    song.rate(1);
+    song.setVolume(0.5);
+    song.rate(1.4);
 }
 function gotPoses(results)
 {
